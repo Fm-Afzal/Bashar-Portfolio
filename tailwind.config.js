@@ -4,11 +4,6 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
-
-      backgroundImage: {
-        'bgWhite': "url('./assets/svg/bg.svg')",
-        'bgDark': "url('./assets/svg/bg-dark.svg')",  
-      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         madeCanvas: ["MADE Canvas", "sans-serif"]

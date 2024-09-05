@@ -46,7 +46,7 @@
                     </ul>
                 </nav>
 
-                
+
                 <div class="w-full absolute bottom-14 left-0 pr-7">
                     <label for="dark-toggle" class="flex items-center justify-between cursor-pointer">
                         <div class="dark:text-white text-olive-light font-semibold text-lg md:text-xl leading-5">
@@ -67,9 +67,15 @@
         </div>
     </header>
 
-    <section class="ml-0 translate-all duration-500 lg:h-[calc(100vh-117px)] flex items-center pt-8 lg:pt-0">
+    <section class="ml-0 translate-all duration-500 lg:h-[calc(100vh-117px)] flex items-center pt-8 lg:pt-0 relative">
         <div class="holder">
-            <div class="max-w-[1300px] mx-auto bg-img bg-bgWhite dark:bg-bgDark ">
+
+            <div class="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2 -z-10">
+                <img class="w-[775px] h-[500px] dark:hidden" src="./assets/svg/bg.svg" alt="">
+                <img class="w-[775px] h-[500px] hidden dark:inline" src="./assets/svg/bg-dark.svg" alt="">
+            </div>
+
+            <div class="max-w-[1300px] mx-auto  ">
                 <h3>I’m Bashar</h3>
                 <h2 class="mt-4">Product designer</h2>
 
