@@ -768,6 +768,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-9{
+  margin-top: 2.25rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -2084,8 +2088,8 @@ video {
   padding-right: 1.25rem;
 }
 
-.pb-16{
-  padding-bottom: 4rem;
+.pb-20{
+  padding-bottom: 5rem;
 }
 
 .pr-7{
@@ -2150,6 +2154,10 @@ video {
 
 .align-super{
   vertical-align: super;
+}
+
+.\!text-0{
+  font-size: 1px !important;
 }
 
 .text-lg{
@@ -2745,6 +2753,27 @@ h2{
 }
 
 h2:where(.dark, .dark *){
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+h1{
+  font-family: MADE Canvas, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px){
+  h1{
+    font-size: 132px;
+  }
+}
+
+h1:where(.dark, .dark *){
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }

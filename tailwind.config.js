@@ -21,6 +21,7 @@ module.exports = {
       fontSize: {
         '21': '21px',
         '10xl': '132px',
+        '0':'1px'
       },
     },
   },
