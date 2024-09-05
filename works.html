@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bashar | Home</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="dark:bg-black bg-white">
+
+
+    <header class="p-5 md:p-10 sticky md:top-0 left-0 z-10">
+
+        <div class="flex  items-center justify-between relative z-50">
+            <div class="h-[19px]">
+                <button class="toggleNav block w-7 bg-transparent space-y-1.5">
+                    <i class="block w-2/4 h-0.5 relative bg-black dark:bg-white"></i>
+                    <i class="block w-full h-0.5 relative bg-black dark:bg-white"></i>
+                    <i class="block w-2/4 h-0.5 relative bg-black dark:bg-white"></i>
+                </button>
+            </div>
+
+            <div class="max-w-[120px] md:max-w-[160px]">
+                <h1 title="BASHAR">
+                    <a href="index.html">
+                        <img class="w-full dark:hidden" src="./assets/svg/site-logo.svg" alt="logo" />
+                        <img class="w-full hidden dark:inline" src="./assets/svg/white-logo.svg" alt="logo" />
+                    </a>
+                </h1>
+            </div>
+        </div>
+
+        <div class="holder">
+            <div
+                class="main-menu md:max-w-[360px]  w-full h-screen -left-full fixed translate-all duration-300 md:border-r md:border-light-gray md:bg-transparent bg-[#669e9a]">
+                <nav class="w-full">
+                    <ul
+                        class="[&>li>a]:text-olive-light dark:[&>li>a:hover]:text-white [&>li>a:hover]:text-black [&>li>a]:font-poppins [&>li>a]:text-lg md:text-21 [&>li>a]:font-semibold [&>li>a]:tracking-[6px] md:[&>li>a]:tracking-[14px] [&>li>a]:uppercase [&>li>a]:leading-5 [&>li>a]:translate-all [&>li>a]:duration-300 [&>li>a]:block [&>li>a]:pb-5 [&>li>a]:w-full [&>li>a]:border-b-4 [&>li>a]:border-transparent [&>li>a:hover]:border-red-light space-y-6 md:space-y-11 text-center md:text-start">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/works.html">Works</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="w-full absolute bottom-14 left-0 pr-7">
+                    <label for="dark-toggle" class="flex items-center justify-between cursor-pointer">
+                        <div class="dark:text-white text-olive-light font-semibold text-lg md:text-xl leading-5">
+                            Dark Mode
+                        </div>
+                        <div class="relative">
+                            <input type="checkbox" name="dark-mode" id="dark-toggle" class="checkbox hidden">
+                            <div
+                                class="block border-[1px] dark:border-white border-gray-900 w-12 md:w-14 h-8 rounded-full">
+                            </div>
+                            <div
+                                class="dot absolute left-1 top-1 dark:bg-white bg-gray-800 w-6 h-6 rounded-full transition">
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="ml-0 h-screen translate-all duration-500 ">
+        <div class="holder">
+            <div class="max-w-[1300px] mx-auto ">
+
+                <div>
+                    <h3>Works</h3>
+
+                    <h1>&amp; Portfolio</h1>
+
+
+                    <div class=" ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus convallis tellus arcu
+                            non. Habitant neque, nisl et duis tellus faucibus more of in
+                            augue vitae. Adipiscing sed morbi non lectus mauris. </p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-12 pb-16">
+
+                    <div>
+                        <a class="block" href="#">
+                            <img src="/assets/images/image1.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="block" href="#">
+                            <img src="/assets/images/image2.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="block" href="#">
+                            <img src="/assets/images/image3.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="block" href="#">
+                            <img src="/assets/images/image4.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="block" href="#">
+                            <img src="/assets/images/image5.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="block" href="#">
+                            <img src="/assets/images/image6.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="block" href="#">
+                            <img src="/assets/images/image7.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="block" href="#">
+                            <img src="/assets/images/image8.jpg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./src/js/main.js"></script>
+
+</body>
+
+</html>
