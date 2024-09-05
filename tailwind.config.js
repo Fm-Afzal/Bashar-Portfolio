@@ -6,8 +6,8 @@ module.exports = {
     extend: {
 
       backgroundImage: {
-        'bg-white': "url('./assets/svg/bg.svg')",
-        'bg-dark': "url('./assets/svg/bg-dark.svg')",  
+        'bg-white': "url('/assets/svg/bg.svg')",
+        'bg-dark': "url('/assets/svg/bg-dark.svg')",  
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
