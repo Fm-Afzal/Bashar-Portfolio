@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bashar | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" />
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="dark:bg-black bg-white">
+
+
+    <header class="p-5 md:p-10 sticky md:top-0 left-0 z-10">
+
+        <div class="flex  items-center justify-between relative z-50">
+            <div class="h-[19px]">
+                <button class="toggleNav block w-7 bg-transparent space-y-1.5">
+                    <i class="block w-2/4 h-0.5 relative bg-black dark:bg-white"></i>
+                    <i class="block w-full h-0.5 relative bg-black dark:bg-white"></i>
+                    <i class="block w-2/4 h-0.5 relative bg-black dark:bg-white"></i>
+                </button>
+            </div>
+
+            <div class="max-w-[120px] md:max-w-[160px]">
+                <h2 class="!text-0 !lg:text-0" title="BASHAR">
+                    <a href="index.html">
+                        <img class="w-full dark:hidden" src="./assets/svg/site-logo.svg" alt="logo" />
+                        <img class="w-full hidden dark:inline" src="./assets/svg/white-logo.svg" alt="logo" />
+                    </a>
+                </h2>
+            </div>
+        </div>
+
+        <div class="holder">
+            <div
+                class="main-menu md:max-w-[360px]  w-full h-screen -left-full fixed translate-all duration-300 md:border-r md:border-light-gray md:bg-transparent bg-[#669e9a]">
+                <nav class="w-full">
+                    <ul
+                        class="[&>li>a]:text-olive-light dark:[&>li>a:hover]:text-white [&>li>a:hover]:text-black [&>li>a]:font-poppins [&>li>a]:text-lg md:text-21 [&>li>a]:font-semibold [&>li>a]:tracking-[6px] md:[&>li>a]:tracking-[14px] [&>li>a]:uppercase [&>li>a]:leading-5 [&>li>a]:translate-all [&>li>a]:duration-300 [&>li>a]:block [&>li>a]:pb-5 [&>li>a]:w-full [&>li>a]:border-b-4 [&>li>a]:border-transparent [&>li>a:hover]:border-red-light space-y-6 md:space-y-11 text-center md:text-start">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+
+                <div class="w-full absolute bottom-14 left-0 pr-7">
+                    <label for="dark-toggle" class="flex items-center justify-between cursor-pointer">
+                        <div class="dark:text-white text-olive-light font-semibold text-lg md:text-xl leading-5">
+                            Dark Mode
+                        </div>
+                        <div class="relative">
+                            <input type="checkbox" name="dark-mode" id="dark-toggle" class="checkbox hidden">
+                            <div
+                                class="block border-[1px] dark:border-white border-gray-900 w-12 md:w-14 h-8 rounded-full">
+                            </div>
+                            <div
+                                class="dot absolute left-1 top-1 dark:bg-white bg-gray-800 w-6 h-6 rounded-full transition">
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="ml-0 translate-all duration-500 h-[calc(100vh-117px)] flex items-center pb-14">
+        <div class="holder">
+            <div class="max-w-[1300px] mx-auto">
+                <h1>
+                    Testimonials
+                </h1>
+
+                <div class="text-olive-light dark:text-white">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus convallis tellus arcu
+                        non.
+                        Habitant neque, nisl et duis tellus faucibus more of in
+                        augue vitae. Adipiscing sed morbi non lectus mauris.
+                    </p>
+                </div>
+
+
+                <div class="swiper testimonialSwiper mt-10">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide grid  grid-cols-10">
+
+                            <div class=" col-span-3 flex items-center gap-6">
+                                <div class="w-20 h-20 rounded-full overflow-hidden">
+                                    <img class="w-full object-cover " src="./assets/svg/Ellipse1.svg" alt="">
+                                </div>
+                                <div class="space-y-2">
+                                    <h4
+                                        class=" font-poppins text-2xl font-semibold leading-5 text-black dark:text-white">
+                                        Mark Hamlin</h4>
+                                    <p>-designer</p>
+                                </div>
+                            </div>
+
+                            <div class="col-span-7">
+
+                                <div>
+
+                                    <div>
+                                        <div class="mb-6">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="95"
+                                                    viewBox="0 0 120 95" fill="none">
+                                                    <path
+                                                        d="M65.7959 95V46.3613L94.8571 0H120L97.6327 43.4332H120V95H65.7959ZM0 95V46.3613L28.5714 0H54.3673L31.5102 43.4332H54.3673V95H0Z"
+                                                        fill="#FFD6D6" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh mattis senectus
+                                            nisl magna nascetur in egestas morbi. Sit viverra quam vulputate cursus
+                                            pellentesque habitasse faucibus sed quam. Pretium ipsum nulla tellus eget
+                                            vestibulum, habitasse mollis. Habitant mattis euismod consequat libero,
+                                            eget. Dictum sapien, mi urna, blandit orci pharetra vestibulum arcu, purus.
+                                            Condimentum elit porta ac odio nec amet, diam turpis amet.</p>
+
+                                        <div class="flex items-center mt-4">
+
+                                            <!-- <span>
+                                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M11.9999 0.687215C12.3794 -0.229072 13.6206 -0.229072 14.0001 0.687215L16.8883 7.66014C17.0462 8.04149 17.3897 8.30278 17.785 8.34221L25.0119 9.06317C25.9615 9.15791 26.3451 10.3937 25.63 11.0548L20.1881 16.0852C19.8904 16.3604 19.7592 16.7831 19.8456 17.1888L21.4238 24.6073C21.6312 25.5822 20.6271 26.346 19.8056 25.8382L13.5542 21.9743C13.2123 21.763 12.7877 21.763 12.4458 21.9743L6.19437 25.8382C5.37289 26.346 4.36875 25.5822 4.57615 24.6073L6.15444 17.1888C6.24076 16.7831 6.10955 16.3604 5.81193 16.0852L0.370039 11.0548C-0.34506 10.3937 0.0384856 9.15791 0.988143 9.06317L8.21502 8.34221C8.61026 8.30278 8.95377 8.04149 9.11172 7.66014L11.9999 0.687215Z"
+                                                        fill="#D9D9D9" />
+                                                </svg>
+
+                                            </span> -->
+
+                                            <span class="ml-auto">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="95"
+                                                    viewBox="0 0 120 95" fill="none">
+                                                    <path
+                                                        d="M54.2041 0V48.6387L25.1429 95H-7.62939e-06L22.3673 51.5668H-7.62939e-06V0H54.2041ZM120 0V48.6387L91.4286 95H65.6327L88.4898 51.5668H65.6327V0H120Z"
+                                                        fill="#FFD6D6" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide grid  grid-cols-10">
+
+                            <div class=" col-span-3 flex items-center gap-6">
+                                <div class="w-20 h-20 rounded-full overflow-hidden">
+                                    <img class="w-full object-cover " src="./assets/svg/Ellipse1.svg" alt="">
+                                </div>
+                                <div class="space-y-2">
+                                    <h4
+                                        class=" font-poppins text-2xl font-semibold leading-5 text-black dark:text-white">
+                                        Mark Hamlin</h4>
+                                    <p>-designer</p>
+                                </div>
+                            </div>
+
+                            <div class="col-span-7">
+
+                                <div>
+
+                                    <div>
+                                        <div class="mb-6">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="95"
+                                                    viewBox="0 0 120 95" fill="none">
+                                                    <path
+                                                        d="M65.7959 95V46.3613L94.8571 0H120L97.6327 43.4332H120V95H65.7959ZM0 95V46.3613L28.5714 0H54.3673L31.5102 43.4332H54.3673V95H0Z"
+                                                        fill="#FFD6D6" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh mattis senectus
+                                            nisl magna nascetur in egestas morbi. Sit viverra quam vulputate cursus
+                                            pellentesque habitasse faucibus sed quam. Pretium ipsum nulla tellus eget
+                                            vestibulum, habitasse mollis. Habitant mattis euismod consequat libero,
+                                            eget. Dictum sapien, mi urna, blandit orci pharetra vestibulum arcu, purus.
+                                            Condimentum elit porta ac odio nec amet, diam turpis amet.</p>
+
+                                        <div class="flex items-center mt-4">
+
+                                            <!-- <span>
+                                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M11.9999 0.687215C12.3794 -0.229072 13.6206 -0.229072 14.0001 0.687215L16.8883 7.66014C17.0462 8.04149 17.3897 8.30278 17.785 8.34221L25.0119 9.06317C25.9615 9.15791 26.3451 10.3937 25.63 11.0548L20.1881 16.0852C19.8904 16.3604 19.7592 16.7831 19.8456 17.1888L21.4238 24.6073C21.6312 25.5822 20.6271 26.346 19.8056 25.8382L13.5542 21.9743C13.2123 21.763 12.7877 21.763 12.4458 21.9743L6.19437 25.8382C5.37289 26.346 4.36875 25.5822 4.57615 24.6073L6.15444 17.1888C6.24076 16.7831 6.10955 16.3604 5.81193 16.0852L0.370039 11.0548C-0.34506 10.3937 0.0384856 9.15791 0.988143 9.06317L8.21502 8.34221C8.61026 8.30278 8.95377 8.04149 9.11172 7.66014L11.9999 0.687215Z"
+                                                        fill="#D9D9D9" />
+                                                </svg>
+
+                                            </span> -->
+
+                                            <span class="ml-auto">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="95"
+                                                    viewBox="0 0 120 95" fill="none">
+                                                    <path
+                                                        d="M54.2041 0V48.6387L25.1429 95H-7.62939e-06L22.3673 51.5668H-7.62939e-06V0H54.2041ZM120 0V48.6387L91.4286 95H65.6327L88.4898 51.5668H65.6327V0H120Z"
+                                                        fill="#FFD6D6" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide grid  grid-cols-10">
+
+                            <div class=" col-span-3 flex items-center gap-6">
+                                <div class="w-20 h-20 rounded-full overflow-hidden">
+                                    <img class="w-full object-cover " src="./assets/svg/Ellipse1.svg" alt="">
+                                </div>
+                                <div class="space-y-2">
+                                    <h4
+                                        class=" font-poppins text-2xl font-semibold leading-5 text-black dark:text-white">
+                                        Mark Hamlin</h4>
+                                    <p>-designer</p>
+                                </div>
+                            </div>
+
+                            <div class="col-span-7">
+
+                                <div>
+
+                                    <div>
+                                        <div class="mb-6">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="95"
+                                                    viewBox="0 0 120 95" fill="none">
+                                                    <path
+                                                        d="M65.7959 95V46.3613L94.8571 0H120L97.6327 43.4332H120V95H65.7959ZM0 95V46.3613L28.5714 0H54.3673L31.5102 43.4332H54.3673V95H0Z"
+                                                        fill="#FFD6D6" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh mattis senectus
+                                            nisl magna nascetur in egestas morbi. Sit viverra quam vulputate cursus
+                                            pellentesque habitasse faucibus sed quam. Pretium ipsum nulla tellus eget
+                                            vestibulum, habitasse mollis. Habitant mattis euismod consequat libero,
+                                            eget. Dictum sapien, mi urna, blandit orci pharetra vestibulum arcu, purus.
+                                            Condimentum elit porta ac odio nec amet, diam turpis amet.</p>
+
+                                        <div class="flex items-center mt-4">
+
+                                            <!-- <span>
+                                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M11.9999 0.687215C12.3794 -0.229072 13.6206 -0.229072 14.0001 0.687215L16.8883 7.66014C17.0462 8.04149 17.3897 8.30278 17.785 8.34221L25.0119 9.06317C25.9615 9.15791 26.3451 10.3937 25.63 11.0548L20.1881 16.0852C19.8904 16.3604 19.7592 16.7831 19.8456 17.1888L21.4238 24.6073C21.6312 25.5822 20.6271 26.346 19.8056 25.8382L13.5542 21.9743C13.2123 21.763 12.7877 21.763 12.4458 21.9743L6.19437 25.8382C5.37289 26.346 4.36875 25.5822 4.57615 24.6073L6.15444 17.1888C6.24076 16.7831 6.10955 16.3604 5.81193 16.0852L0.370039 11.0548C-0.34506 10.3937 0.0384856 9.15791 0.988143 9.06317L8.21502 8.34221C8.61026 8.30278 8.95377 8.04149 9.11172 7.66014L11.9999 0.687215Z"
+                                                        fill="#D9D9D9" />
+                                                </svg>
+
+                                            </span> -->
+
+                                            <span class="ml-auto">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="95"
+                                                    viewBox="0 0 120 95" fill="none">
+                                                    <path
+                                                        d="M54.2041 0V48.6387L25.1429 95H-7.62939e-06L22.3673 51.5668H-7.62939e-06V0H54.2041ZM120 0V48.6387L91.4286 95H65.6327L88.4898 51.5668H65.6327V0H120Z"
+                                                        fill="#FFD6D6" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="20" viewBox="0 0 34 20" fill="none">
+                            <path d="M1 10H32.8342" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M24 1L33 10L24 19" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <div class="swiper-button-prev ">
+                        <svg class=" rotate-180" xmlns="http://www.w3.org/2000/svg" width="34" height="20"
+                            viewBox="0 0 34 20" fill="none">
+                            <path d="M1 10H32.8342" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M24 1L33 10L24 19" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="./src/js/jQurey.js"></script>
+    <script src="./src/js/main.js"></script>
+
+</body>
+
+</html>
